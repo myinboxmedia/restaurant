@@ -77,6 +77,9 @@ body {
   }
 }
 
+.itemItem {
+  width: 50px;
+}
 
 /* // `xs` returns only a ruleset and no media query
 // ... { ... } */
@@ -85,6 +88,8 @@ body {
 @media (max-width: 575.98px) { 
   .carousel-item {height: 9rem;}
   .itemListing {margin-bottom: 6em;}
+  .item-content h6 {font-size: 13px;}
+  .item-price { width: 90%;margin: 0 auto;}
 
  }
 
