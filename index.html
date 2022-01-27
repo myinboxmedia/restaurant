@@ -1,4 +1,3 @@
-
 <!doctype html>
 <html lang="en">
   <head>
@@ -429,7 +428,7 @@
             <!-- /END THE FEATURETTES -->
         </div>
         <div class="col-lg-4">
-            <div class="card shadow">
+            <div class="card shadow d-none d-sm-block">
                 <div class="card-body">
                     <!--  -->
                     <h4 class="d-flex justify-content-between align-items-center mb-3">
@@ -490,18 +489,74 @@
   <section class="py-4 fixed-bottom d-block d-sm-none">
     <div class="container">
         <div class="card bg-danger shadow">
-            <div class="card-body">
+            <div class="card-body p-2">
                 <div class="d-flex justify-content-between align-items-center">
                     <div class="ms-2 me-auto text-white">
-                       2 items
+                       3 items
                       <div class="fw-bold">&#8377; 600 plus taxes</div>
                     </div>
-                    <button type="button" class="btn btn-outline-light"><i class="bi bi-cash-stack"></i> Payment</button>
+                    <button type="button" class="btn btn-outline-light" data-bs-toggle="modal" data-bs-target="#exampleModal"> View Orders</button>
                 </div>
             </div>
         </div>
     </div>
   </section>
+  <!--  -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header bg-danger">
+          <h5 class="modal-title text-white" id="exampleModalLabel">Your Orders</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!--  -->
+          <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between lh-sm">
+              <div>
+                <h6 class="my-0">Strawberry And Banana</h6>
+                <small class="text-muted">1 Medium Glass</small>
+              </div>
+              <span class="text-muted">200</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-sm">
+              <div>
+                <h6 class="my-0">Orange And Carrot</h6>
+                <small class="text-muted">2X Small Glass</small>
+              </div>
+              <span class="text-muted">100</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between lh-sm">
+              <div>
+                <h6 class="my-0">Guava Mint</h6>
+                <small class="text-muted">1 Large Glass</small>
+              </div>
+              <span class="text-muted">300</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between bg-light">
+              <div class="text-success">
+                <h6 class="my-0">Promo code</h6>
+                <small>MIMFREE</small>
+              </div>
+              <span class="text-success">-100</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between">
+              <span>Total (INR)</span>
+              <strong>600</strong>
+            </li>
+          </ul>
+          <!--  -->
+        </div>
+        <div class="modal-footer justify-content-center">
+          <button type="button" class="btn btn-success"><i class="bi bi-cash-stack"></i> Payment</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
   <!-- <footer class="container my-4">
     <p class="float-end"><a href="#">Back to top</a></p>
     <p>&copy; 2022 MIM. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>

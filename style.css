@@ -84,7 +84,7 @@ body {
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
   .carousel-item {height: 9rem;}
-  .itemListing {margin-bottom: 8em;}
+  .itemListing {margin-bottom: 6em;}
 
  }
 
