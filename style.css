@@ -35,7 +35,7 @@ body {
 } */
 
 .carousel-item {
-  height: 100vh;
+  height: 70vh;
   /* min-height: 350px; */
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
@@ -83,9 +83,9 @@ body {
 
 /* // `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) { 
-  .carousel-item {height: 15rem;}
+  .carousel-item {height: 9rem;}
   .itemListing {margin-bottom: 8em;}
-  
+
  }
 
 /* // `md` applies to small devices (landscape phones, less than 768px) */
